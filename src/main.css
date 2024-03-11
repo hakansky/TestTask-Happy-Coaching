@@ -1,0 +1,286 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    color: rgba(74, 85, 108, 1);
+    font-family: "Kumbh Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+            "YOPQ" 300;
+}
+
+/* HEADER */
+
+header {
+    display: flex;
+    padding: 10px 85px 10px 85px;
+    justify-content: space-between;
+}
+
+header nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav h3 {
+    margin: 0 30px 0 0;
+    font-size: 15px;
+}
+
+header nav button {
+    font-size: 14px;
+    padding: 11px 16px;
+    background-color: rgba(32, 173, 150, 1);
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+
+header img {
+    max-width: 150px;
+    max-height: 30px;
+}
+
+/* MAIN */
+
+main {
+    padding: 55px 166px 0 85px;
+    background: rgba(250, 248, 246, 1);
+}
+
+main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main .container img {
+    max-width: 460px;
+    position: relative;
+    top: 26px;
+}
+
+main .container .intro span {
+    opacity: 40%;
+    margin: 0;
+}
+
+main .container .intro h1 {
+    color: rgba(51, 52, 97, 1);
+    font-size: 72px;
+    font-weight: 800;
+    margin: 6px 0 18px 0;
+}
+
+main .container .intro p {
+    font-size: 18px;
+}
+
+main .container .intro button {
+    background-color: rgba(32, 173, 150, 1);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 9px 16px;
+    font-size: 14px;
+    width: 250px;
+}
+
+main #Vector {
+    position: relative;
+    right: 34px;
+    max-width: 100px;
+}
+
+/* SECTION */
+
+.how-does-it-work {
+    padding: 120px 80px 80px 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.how-does-it-work .title span {
+    opacity: 50%;
+    font-size: 16px;
+}
+
+.how-does-it-work .title h2 {
+    color: rgba(51, 52, 97, 1);
+    font-size: 36px;
+    font-weight: 800;
+    margin: 12px 0 20px 0;
+}
+
+@keyframes pulsation {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.15);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.how-does-it-work .title h2 {
+    animation: pulsation 1.5s infinite;
+}
+
+.how-does-it-work .title p {
+    opacity: 70%;
+}
+
+.how-does-it-work .title {
+    margin-bottom: 64px;
+}
+
+.how-does-it-work .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 32px;
+    grid-row-gap: 64px;
+}
+
+.how-does-it-work .grid h4 {
+    color: rgba(51, 52, 97, 1);
+    font-size: 20px;
+    font-weight: 700;
+    margin: 20px 0 8px 0;
+}
+
+.how-does-it-work .grid p {
+    color: rgba(102, 112, 133, 1);
+    font-size: 16px;
+}
+
+.how-does-it-work .grid img {
+    background-color: rgba(250, 248, 246, 1);
+    border-radius: 50px;
+    padding: 13px;
+}
+
+/* FOOTER */
+
+footer .notify {
+    background: rgba(250, 248, 246, 1);
+    padding: 48px 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+footer .notify div,
+footer .notify form {
+    padding: 0 32px;
+}
+
+footer .notify form {
+    display: flex;
+}
+
+footer .notify #submit {
+    background-color: rgba(32, 173, 150, 1);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    padding: 10px 18px;
+    font-size: 16px;
+    width: 150px;
+    margin-left: 16px;
+    opacity: 100%;
+}
+
+footer .notify h2 {
+    color: rgba(51, 52, 97, 1);
+    font-size: 30px;
+    margin-bottom: 16px;
+}
+
+footer .notify p {
+    font-size: 20px;
+}
+
+footer .notify input {
+    width: 280px;
+    padding: 10px 14px;
+    border: 1px solid rgba(208, 213, 221, 1);
+    border-radius: 8px;
+    opacity: 50%;
+}
+
+footer .middle-footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 64px 80px;
+}
+
+footer .middle-footer #p {
+    opacity: 50%;
+    padding-top: 32px;
+}
+
+footer img .middle-footer img {
+    max-width: 150px;
+    max-height: 30px;
+}
+
+footer .middle-footer .contacts h4,
+footer .middle-footer .pages h4 {
+    font-size: 14px;
+    font-weight: 800;
+    color: black;
+}
+
+footer .middle-footer .contacts p,
+footer .middle-footer .pages p {
+    opacity: 50%;
+    font-size: 16px;
+}
+
+footer .bottom-footer {
+    padding: 32px 112px 48px 112px;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .bottom-footer img {
+    max-height: 14px;
+}
+
+.how-does-it-work .grid-1,
+.how-does-it-work .grid-2,
+.how-does-it-work .grid-3,
+.how-does-it-work .grid-4,
+.how-does-it-work .grid-5,
+.how-does-it-work .grid-6 {
+    transition: 0.5s;
+}
+
+/* HOVERS */
+
+header nav h3,
+header nav button,
+main .container .intro button,
+footer .middle-footer .contacts p,
+footer .middle-footer .pages p,
+footer .notify #submit {
+    cursor: pointer;
+}
+
+.how-does-it-work .grid-1:hover,
+.how-does-it-work .grid-2:hover,
+.how-does-it-work .grid-3:hover,
+.how-does-it-work .grid-4:hover,
+.how-does-it-work .grid-5:hover,
+.how-does-it-work .grid-6:hover {
+    transform: scale(110%);
+}
+
+/* END */

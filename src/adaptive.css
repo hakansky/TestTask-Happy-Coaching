@@ -1,0 +1,132 @@
+@media (max-width: 1200px) {
+    main {
+        padding: 50px;
+    }
+}
+
+@media (max-width: 1000px) {
+    header {
+        flex-direction: column;
+        align-items: center;
+    }
+    header nav {
+        padding-top: 20px;
+    }
+    main .container img {
+        max-width: 300px;
+    }
+    main .container .intro h1 {
+        font-size: 40px;
+    }
+    main .container .intro p {
+        font-size: 12px;
+    }
+    .how-does-it-work .grid h4 {
+        font-size: 16px;
+    }
+    .how-does-it-work .grid p {
+        font-size: 12px;
+    }
+    footer .notify div h2 {
+        font-size: 20px;
+    }
+    footer .notify div p {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 800px) {
+    .how-does-it-work .title h2 {
+        font-size: 20px;
+    }
+    footer .notify div h2 {
+        font-size: 16px;
+    }
+    footer .notify div p {
+        font-size: 10px;
+    }
+    footer .middle-footer p,
+    footer .middle-footer .pages p,
+    footer .middle-footer .contacts p {
+        font-size: 10px;
+    }
+    input {
+        max-width: 150px;
+    }
+}
+
+@media (max-width: 650px) {
+    header nav {
+        display: flex;
+        flex-direction: column;
+    }
+    header nav h3 {
+        margin: 0;
+        padding: 5px 0 5px 0;
+        font-size: 20px;
+    }
+    main .container .intro,
+    main .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .notify {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .how-does-it-work .grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    input {
+        max-width: 100px;
+    }
+    footer .middle-footer {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 450px) {
+    header nav h3,
+    header nav button {
+        font-size: 16px;
+        margin: 3px 0;
+    }
+    main {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    main #Vector {
+        right: 0;
+        margin-bottom: 20px;
+    }
+    footer .bottom-footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .bottom-footer img {
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 400px) {
+    header nav h3,
+    header nav button {
+        font-size: 12px;
+    }
+    main .container .intro h1 {
+        font-size: 30px;
+        margin: 10px;
+    }
+    .how-does-it-work .grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
